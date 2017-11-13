@@ -1,0 +1,11 @@
+language: java
+before_script: cd 12f_app
+script: mvn clean install
+deploy:
+  edge: true
+  provider: cloudfoundry
+  username: lauri.vasko@gmail.com
+  api: https://api.run.pivotal.io
+  organization: lauri.vasko.org
+  space: development
+
