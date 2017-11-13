@@ -1,0 +1,170 @@
+Retrieving logs for app [36;1mlvasko.app[0m in org [36;1mlauri.vasko.org[0m / space [36;1mdevelopment[0m as [36;1mlauri.vasko@gmail.com[0m...
+
+   2017-11-13T14:12:13.62+0200 [API/0] OUT Uploading bits for app with guid 6302e489-f9f2-45ab-86c8-b304f7b7794c
+   2017-11-13T14:12:57.32+0200 [API/24] OUT Updated app with guid 6302e489-f9f2-45ab-86c8-b304f7b7794c ({"state"=>"STARTED"})
+   2017-11-13T14:12:57.43+0200 [STG/0] OUT Downloading binary_buildpack...
+   2017-11-13T14:12:57.43+0200 [STG/0] OUT Downloading nodejs_buildpack...
+   2017-11-13T14:12:57.43+0200 [STG/0] OUT Downloading staticfile_buildpack...
+   2017-11-13T14:12:57.43+0200 [STG/0] OUT Downloading java_buildpack...
+   2017-11-13T14:12:57.44+0200 [STG/0] OUT Downloading ruby_buildpack...
+   2017-11-13T14:12:57.45+0200 [STG/0] OUT Downloaded binary_buildpack
+   2017-11-13T14:12:57.45+0200 [STG/0] OUT Downloading php_buildpack...
+   2017-11-13T14:12:57.45+0200 [STG/0] OUT Downloaded staticfile_buildpack
+   2017-11-13T14:12:57.45+0200 [STG/0] OUT Downloading go_buildpack...
+   2017-11-13T14:12:57.48+0200 [STG/0] OUT Downloaded nodejs_buildpack
+   2017-11-13T14:12:57.48+0200 [STG/0] OUT Downloading python_buildpack...
+   2017-11-13T14:12:57.50+0200 [STG/0] OUT Downloaded php_buildpack
+   2017-11-13T14:12:57.50+0200 [STG/0] OUT Downloading dotnet_core_buildpack...
+   2017-11-13T14:12:57.52+0200 [STG/0] OUT Downloaded python_buildpack
+   2017-11-13T14:12:57.52+0200 [STG/0] OUT Downloading dotnet_core_buildpack_beta...
+   2017-11-13T14:12:57.52+0200 [STG/0] OUT Downloaded ruby_buildpack
+   2017-11-13T14:12:57.52+0200 [STG/0] OUT Downloaded dotnet_core_buildpack
+   2017-11-13T14:12:57.55+0200 [STG/0] OUT Downloaded java_buildpack
+   2017-11-13T14:12:57.55+0200 [STG/0] OUT Downloaded go_buildpack
+   2017-11-13T14:12:57.57+0200 [STG/0] OUT Downloaded dotnet_core_buildpack_beta
+   2017-11-13T14:12:57.57+0200 [STG/0] OUT Creating container
+   2017-11-13T14:12:58.02+0200 [STG/0] OUT Successfully created container
+   2017-11-13T14:12:58.02+0200 [STG/0] OUT Downloading app package...
+   2017-11-13T14:13:05.32+0200 [STG/0] OUT        Expanding Open Jdk JRE to .java-buildpack/open_jdk_jre [3m[32m(1.3s)[0m[23m
+   2017-11-13T14:13:05.32+0200 [STG/0] OUT [1m[31m----->[0m[22m Downloading [1m[34mOpen JDK Like Memory Calculator[0m[22m [34m3.9.0_RELEASE[0m from https://java-buildpack.cloudfoundry.org/memory-calculator/trusty/x86_64/memory-calculator-3.9.0_RELEASE.tar.gz [3m[32m(found in cache)[0m[23m
+   2017-11-13T14:13:06.02+0200 [STG/0] OUT        Loaded Classes: 15768, Threads: 300
+   2017-11-13T14:13:06.03+0200 [STG/0] OUT [1m[31m----->[0m[22m Downloading [1m[34mClient Certificate Mapper[0m[22m [34m1.2.0_RELEASE[0m from https://java-buildpack.cloudfoundry.org/client-certificate-mapper/client-certificate-mapper-1.2.0_RELEASE.jar [3m[32m(found in cache)[0m[23m
+   2017-11-13T14:13:06.04+0200 [STG/0] OUT [1m[31m----->[0m[22m Downloading [1m[34mContainer Security Provider[0m[22m [34m1.8.0_RELEASE[0m from https://java-buildpack.cloudfoundry.org/container-security-provider/container-security-provider-1.8.0_RELEASE.jar [3m[32m(found in cache)[0m[23m
+   2017-11-13T14:13:06.04+0200 [STG/0] OUT [1m[31m----->[0m[22m Downloading [1m[34mSpring Auto Reconfiguration[0m[22m [34m1.12.0_RELEASE[0m from https://java-buildpack.cloudfoundry.org/auto-reconfiguration/auto-reconfiguration-1.12.0_RELEASE.jar [3m[32m(found in cache)[0m[23m
+   2017-11-13T14:13:17.82+0200 [STG/0] OUT Exit status 0
+   2017-11-13T14:13:17.82+0200 [STG/0] OUT Uploading droplet, build artifacts cache...
+   2017-11-13T14:13:17.82+0200 [STG/0] OUT Uploading build artifacts cache...
+   2017-11-13T14:13:17.82+0200 [STG/0] OUT Uploading droplet...
+   2017-11-13T14:13:17.87+0200 [STG/0] OUT Uploaded build artifacts cache (131B)
+   2017-11-13T14:13:28.46+0200 [CELL/0] OUT Starting health monitoring of container
+   2017-11-13T14:13:28.56+0200 [APP/PROC/WEB/0] OUT JVM Memory Configuration: -XX:ReservedCodeCacheSize=240M -XX:CompressedClassSpaceSize=19076K -XX:MaxDirectMemorySize=10M -XX:MaxMetaspaceSize=107004K -Xss1M -Xmx359294K
+   2017-11-13T14:13:39.59+0200 [APP/PROC/WEB/0] OUT 2017-11-13 12:13:39.595  INFO 20 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+   2017-11-13T14:17:35.81+0200 [APP/PROC/WEB/0] OUT 2017-11-13 12:17:35.816  INFO 20 --- [nio-8080-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+   2017-11-13T14:17:35.81+0200 [APP/PROC/WEB/0] OUT 2017-11-13 12:17:35.817  INFO 20 --- [nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+   2017-11-13T14:17:35.91+0200 [APP/PROC/WEB/0] OUT 2017-11-13 12:17:35.919  INFO 20 --- [nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 101 ms
+   2017-11-13T14:17:36.27+0200 [APP/PROC/WEB/0] OUT 2017-11-13 12:17:36.270  WARN 20 --- [nio-8080-exec-9] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1146, SQLState: 42S02
+   2017-11-13T14:17:36.27+0200 [APP/PROC/WEB/0] OUT 2017-11-13 12:17:36.271 ERROR 20 --- [nio-8080-exec-9] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table 'ad_abe5d4a60b25d9f.stock_item' doesn't exist
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 2017-11-13 12:17:36.306 ERROR 20 --- [nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessResourceUsageException: could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement] with root cause
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'ad_abe5d4a60b25d9f.stock_item' doesn't exist
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_141]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_141]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_141]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_141]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.44.jar!/:5.1.44]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at com.mysql.jdbc.Util.getInstance(Util.java:408) ~[mysql-connector-java-5.1.44.jar!/:5.1.44]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943) ~[mysql-connector-java-5.1.44.jar!/:5.1.44]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973) ~[mysql-connector-java-5.1.44.jar!/:5.1.44]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909) ~[mysql-connector-java-5.1.44.jar!/:5.1.44]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527) ~[mysql-connector-java-5.1.44.jar!/:5.1.44]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680) ~[mysql-connector-java-5.1.44.jar!/:5.1.44]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2487) ~[mysql-connector-java-5.1.44.jar!/:5.1.44]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858) ~[mysql-connector-java-5.1.44.jar!/:5.1.44]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2079) ~[mysql-connector-java-5.1.44.jar!/:5.1.44]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2013) ~[mysql-connector-java-5.1.44.jar!/:5.1.44]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5104) ~[mysql-connector-java-5.1.44.jar!/:5.1.44]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1998) ~[mysql-connector-java-5.1.44.jar!/:5.1.44]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_141]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_141]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_141]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_141]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.apache.tomcat.jdbc.pool.StatementFacade$StatementProxy.invoke(StatementFacade.java:114) ~[tomcat-jdbc-8.5.23.jar!/:na]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at com.sun.proxy.$Proxy89.executeUpdate(Unknown Source) ~[na:na]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:204) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:42) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2855) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3426) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:619) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:273) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:254) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:299) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:317) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:272) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:178) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:109) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.hibernate.jpa.event.internal.core.JpaPersistEventListener.saveWithGeneratedId(JpaPersistEventListener.java:67) ~[hibernate-entitymanager-5.0.12.Final.jar!/:5.0.12.Final]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:189) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:132) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:58) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:775) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:748) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:753) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.persist(AbstractEntityManagerImpl.java:1146) ~[hibernate-entitymanager-5.0.12.Final.jar!/:5.0.12.Final]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_141]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_141]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_141]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_141]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:347) ~[spring-orm-4.3.12.RELEASE.jar!/:4.3.12.RELEASE]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at com.sun.proxy.$Proxy79.persist(Unknown Source) ~[na:na]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_141]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_141]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_141]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_141]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:298) ~[spring-orm-4.3.12.RELEASE.jar!/:4.3.12.RELEASE]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at com.sun.proxy.$Proxy79.persist(Unknown Source) ~[na:na]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:508) ~[spring-data-jpa-1.11.8.RELEASE.jar!/:na]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_141]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_141]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_141]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_141]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.executeMethodOn(RepositoryFactorySupport.java:504) ~[spring-data-commons-1.13.8.RELEASE.jar!/:na]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:489) ~[spring-data-commons-1.13.8.RELEASE.jar!/:na]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:461) ~[spring-data-commons-1.13.8.RELEASE.jar!/:na]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.12.RELEASE.jar!/:4.3.12.RELEASE]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:56) ~[spring-data-commons-1.13.8.RELEASE.jar!/:na]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.12.RELEASE.jar!/:4.3.12.RELEASE]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99) ~[spring-tx-4.3.12.RELEASE.jar!/:4.3.12.RELEASE]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282) ~[spring-tx-4.3.12.RELEASE.jar!/:4.3.12.RELEASE]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96) ~[spring-tx-4.3.12.RELEASE.jar!/:4.3.12.RELEASE]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.12.RELEASE.jar!/:4.3.12.RELEASE]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136) ~[spring-tx-4.3.12.RELEASE.jar!/:4.3.12.RELEASE]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.12.RELEASE.jar!/:4.3.12.RELEASE]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:133) ~[spring-data-jpa-1.11.8.RELEASE.jar!/:na]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.12.RELEASE.jar!/:4.3.12.RELEASE]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-4.3.12.RELEASE.jar!/:4.3.12.RELEASE]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.12.RELEASE.jar!/:4.3.12.RELEASE]
+   2017-11-13T14:17:36.30+0200 [APP/PROC/WEB/0] OUT 	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:57) ~[spring-data-commons-1.13.8.RELEASE.jar!/:na]
+   2017-11-13T14:17:36.43+0200 [RTR/5] OUT lvaskoapp.cfapps.io - [2017-11-13T12:17:35.754+0000] "POST /stock?stockItem=%7B%22type%22%3A%22CD%22%2C%22title%22%3A%22Some+awesome+movie%22%2C%22description%22%3A%22Hello%22%7D HTTP/1.1" 500 64 311 "-" "Apache-HttpClient/4.4.1 (Java/1.8.0_112-release)" "10.10.2.186:60953" "10.10.149.215:61089" x_forwarded_for:"195.80.105.102, 10.10.2.186" x_forwarded_proto:"http" vcap_request_id:"d9d9a013-6e61-4f6b-6e63-0bff6867ddb1" response_time:0.679823236 app_id:"6302e489-f9f2-45ab-86c8-b304f7b7794c" app_index:"0" x_b3_traceid:"a5b510f75c54a736" x_b3_spanid:"a5b510f75c54a736" x_b3_parentspanid:"-"
+   2017-11-13T14:17:36.43+0200 [RTR/5] OUT 
+   2017-11-13T14:31:38.16+0200 [API/11] OUT Updated app with guid 6302e489-f9f2-45ab-86c8-b304f7b7794c ({"state"=>"STARTED"})
+   2017-11-13T14:32:09.32+0200 [APP/PROC/WEB/0] OUT 2017-11-13 12:32:09.313  INFO 18 --- [           main] urceCloudServiceBeanFactoryPostProcessor : Auto-reconfiguring beans of type javax.sql.DataSource
+   2017-11-13T14:32:09.36+0200 [APP/PROC/WEB/0] OUT 2017-11-13 12:32:09.358  INFO 18 --- [           main] o.c.r.o.s.c.s.r.PooledDataSourceCreator  : Found Tomcat JDBC connection pool on the classpath. Using it for DataSource connection pooling.
+   2017-11-13T14:32:09.48+0200 [APP/PROC/WEB/0] OUT 2017-11-13 12:32:09.479  INFO 18 --- [           main] nateCloudServiceBeanFactoryPostProcessor : Auto-reconfiguring beans of type org.springframework.orm.hibernate3.AbstractSessionFactoryBean
+   2017-11-13T14:32:09.48+0200 [APP/PROC/WEB/0] OUT 2017-11-13 12:32:09.481  INFO 18 --- [           main] nateCloudServiceBeanFactoryPostProcessor : Auto-reconfiguring beans of type org.springframework.orm.hibernate4.LocalSessionFactoryBean
+   2017-11-13T14:32:09.48+0200 [APP/PROC/WEB/0] OUT 2017-11-13 12:32:09.482  INFO 18 --- [           main] .JpaCloudServiceBeanFactoryPostProcessor : Auto-reconfiguring beans of type org.springframework.orm.jpa.AbstractEntityManagerFactoryBean
+   2017-11-13T14:32:15.58+0200 [APP/PROC/WEB/0] OUT 2017-11-13 12:32:15.587  INFO 18 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@49c2faae: startup date [Mon Nov 13 12:32:07 UTC 2017]; root of context hierarchy
+   2017-11-13T14:37:57.40+0200 [API/18] OUT Uploading bits for app with guid 6302e489-f9f2-45ab-86c8-b304f7b7794c
+   2017-11-13T14:38:49.05+0200 [API/16] OUT Updated app with guid 6302e489-f9f2-45ab-86c8-b304f7b7794c ({"state"=>"STARTED"})
+   2017-11-13T14:38:49.17+0200 [STG/0] OUT Downloading binary_buildpack...
+   2017-11-13T14:38:49.17+0200 [STG/0] OUT Downloading nodejs_buildpack...
+   2017-11-13T14:38:49.17+0200 [STG/0] OUT Downloading staticfile_buildpack...
+   2017-11-13T14:38:49.17+0200 [STG/0] OUT Downloading java_buildpack...
+   2017-11-13T14:38:49.19+0200 [STG/0] OUT Downloading ruby_buildpack...
+   2017-11-13T14:38:49.25+0200 [STG/0] OUT Downloaded java_buildpack
+   2017-11-13T14:38:49.25+0200 [STG/0] OUT Downloading php_buildpack...
+   2017-11-13T14:38:49.25+0200 [STG/0] OUT Downloaded staticfile_buildpack
+   2017-11-13T14:38:49.25+0200 [STG/0] OUT Downloading go_buildpack...
+   2017-11-13T14:38:49.26+0200 [STG/0] OUT Downloaded binary_buildpack
+   2017-11-13T14:38:49.26+0200 [STG/0] OUT Downloading python_buildpack...
+   2017-11-13T14:38:49.27+0200 [STG/0] OUT Downloaded python_buildpack
+   2017-11-13T14:38:49.27+0200 [STG/0] OUT Downloading dotnet_core_buildpack...
+   2017-11-13T14:38:49.29+0200 [STG/0] OUT Downloaded nodejs_buildpack
+   2017-11-13T14:38:49.29+0200 [STG/0] OUT Downloading dotnet_core_buildpack_beta...
+   2017-11-13T14:38:49.30+0200 [STG/0] OUT Downloaded php_buildpack
+   2017-11-13T14:38:49.33+0200 [STG/0] OUT Downloaded ruby_buildpack
+   2017-11-13T14:38:49.33+0200 [STG/0] OUT Downloaded dotnet_core_buildpack
+   2017-11-13T14:38:49.33+0200 [STG/0] OUT Downloaded go_buildpack
+   2017-11-13T14:38:49.35+0200 [STG/0] OUT Downloaded dotnet_core_buildpack_beta
+   2017-11-13T14:38:49.35+0200 [STG/0] OUT Creating container
+   2017-11-13T14:38:49.80+0200 [STG/0] OUT Successfully created container
+   2017-11-13T14:38:49.80+0200 [STG/0] OUT Downloading build artifacts cache...
+   2017-11-13T14:38:49.80+0200 [STG/0] OUT Downloading app package...
+   2017-11-13T14:39:08.78+0200 [STG/0] OUT Exit status 0
+   2017-11-13T14:39:08.78+0200 [STG/0] OUT Uploading droplet, build artifacts cache...
+   2017-11-13T14:39:08.78+0200 [STG/0] OUT Uploading build artifacts cache...
+   2017-11-13T14:39:08.78+0200 [STG/0] OUT Uploading droplet...
+   2017-11-13T14:39:08.83+0200 [STG/0] OUT Uploaded build artifacts cache (131B)
+   2017-11-13T14:39:09.86+0200 [API/2] OUT Creating droplet for app with guid 6302e489-f9f2-45ab-86c8-b304f7b7794c
+   2017-11-13T14:45:55.54+0200 [RTR/1] OUT lvaskoapp.cfapps.io - [2017-11-13T12:45:55.511+0000] "POST /stock HTTP/1.1" 500 64 311 "-" "Apache-HttpClient/4.4.1 (Java/1.8.0_112-release)" "10.10.2.186:44284" "10.10.148.229:61067" x_forwarded_for:"195.80.105.102, 10.10.2.186" x_forwarded_proto:"http" vcap_request_id:"8db573db-07f0-443b-4e3a-b70298dda6c8" response_time:0.03357964 app_id:"6302e489-f9f2-45ab-86c8-b304f7b7794c" app_index:"0" x_b3_traceid:"ff285f715fff657a" x_b3_spanid:"ff285f715fff657a" x_b3_parentspanid:"-"
+   2017-11-13T14:45:55.54+0200 [RTR/1] OUT 
