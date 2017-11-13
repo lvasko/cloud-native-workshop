@@ -8,4 +8,5 @@ deploy:
   api: https://api.run.pivotal.io
   organization: lauri.vasko.org
   space: development
-
+  password:
+    secure: QE7GigGhr9D3BojBlZ7UFg6dgTQ4s/uzIhcaKSot6+DILkFXJlXWTrma9gP3wsQbGpFF6z4H4n84JJR4LHR4p7/7Y/m8FHn/4YD6fkYDs8MW+qaDhma/IrSRoyKLaxIRDjw/LAqmdAnwUEVtVIeJJXyeB/wD0yt+JTxGhImuE2tyhhSeinEP6ghqTbLx0pMQAEn9o2Dg6iFLnzRhejGfG4HPOFyjxrtmXEfGTg5uubHKRqDPWdAb42fC90yxXdX+zTzYpf3JBNSAAc66BB+r7eGeEUvUidJwMmg/t8dWpReMMf+zdedz0dWBTmGAgeWI8QafaTvhOHmywhiriWz6CLiFEG13IRi11shTQeg6P4zU/B8OkX+rkBG8a0Fe3XmijzjlSLEyhDs2S+hBC2enAcMKfwxsMWK4AaWizGebuZL0WdE4UeP3fWCdMYoEdzd93MfX56eDhUlTXOwULZrKODXAiKnkom+Nlce+M5edz3heD6Dm6BftBNpNYHRB+uVZVvoZ1zSGXqTXjEjfZHOV6JO+NB/mDrXJpxEKFl7iChWojLuLqIvYHW5dmzZ68WHm7EEA5RTzvSWlJLDuXne+s2YDzCrn/aj1iUAWjxV7ohkwiFUbEaQm6qWZ6Pnif2QEs7V+PzPiX38r+E55P+fm5kevL6mvfCWuyfFxZ8ya1QA=
