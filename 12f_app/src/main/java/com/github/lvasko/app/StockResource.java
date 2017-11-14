@@ -80,6 +80,8 @@ public class StockResource {
 
     @RequestMapping(value = "", method = RequestMethod.GET)
     public Iterable<StockItem> items() {
+        logger.info("Starting listing of stock items");
+
         return stockItemRepository.findAll();
     }
 
