@@ -21,6 +21,12 @@ public class StockResource {
     @Autowired
     private StockItemRepository stockItemRepository;
 
+    @RequestMapping(value = "/get-env", method = RequestMethod.GET)
+    public String getEnv(@RequestParam String env) {
+        return "Env" + " " + environment.getProperty(env);
+    }
+
+
     @RequestMapping(method = RequestMethod.GET, value = "/{id}")
     public StockItem stockItem(@PathVariable("id") Long id, HttpServletResponse response) {
 
