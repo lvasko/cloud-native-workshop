@@ -1,5 +1,5 @@
 applications:
-- name: lvasko.app
+- name: lvasko.app.staging
   path: target/12f_app-1.0-SNAPSHOT.jar
   memory: 1G
   services:
