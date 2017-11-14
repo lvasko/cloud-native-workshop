@@ -1,7 +1,7 @@
 applications:
 - name: lvasko.app.staging
   path: target/12f_app-1.0-SNAPSHOT.jar
-  memory: 1G
+  memory: 256M
   services:
   - my-db
   - my-redis
