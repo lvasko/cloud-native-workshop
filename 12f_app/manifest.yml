@@ -5,3 +5,7 @@ applications:
   services:
   - my-db
   - my-redis
+env:
+  spring.application.name: 12f-app
+  spring.cloud.config.uri: https://lvaskoconf.cfapps.io
+  management.security.enabled: false
